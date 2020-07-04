@@ -8,11 +8,10 @@ Created on Fri Jul  3 22:02:39 2020
 
 def max_number(num_1, num_2):
     if num_1 > num_2:
-        max_val = num_1
-        return max_val
-    max_val = num_2
-    return max_val
+        return num_1
+
+    return num_2
 
 
-a = max_number(100000.0,10000001.2)
+a = max_number(1001.1,1001.2)
 print(a)
