@@ -7,11 +7,12 @@ Created on Sat Jul  4 23:15:25 2020
 
 
 def multiply(numbers):
-    if numbers == []:
+    if not numbers:
         return 0
+    
     total_product = 1
     for number in numbers:
-        total_product += number
+        total_product *= number
         
     return total_product
 
